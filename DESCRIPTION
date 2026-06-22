@@ -1,7 +1,7 @@
 Package: STADyUM
 Type: Package
 Title: Statistical Transcriptome Analysis under a Dynamic Unified Model
-Version: 1.3.1
+Version: 1.3.2
 Authors@R: 
     c(
         person("Yixin", "Zhao", 
@@ -58,7 +58,8 @@ Imports:
     MASS,
     plyranges,
     pracma,
-    ggpointdensity
+    ggpointdensity,
+    BiocFileCache
 LinkingTo:
     Rcpp
 Suggests:
